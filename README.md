@@ -23,9 +23,6 @@ The program outputs one of the following based on the input:
 - A sequence of tokens and their corresponding lexemes if the input is correctly formatted and matches the token definitions.
 - An error message if there are syntax errors, duplicate token names, or if a token's regular expression can generate the empty string.
 
-## Requirements
-- Do not use any built-in or library support for regular expressions in C/C++.
-- Ensure the program compiles and runs on Ubuntu 22.04 with GCC version 4:11.2.0-1ubuntu1, using the `-std=c++11` option.
 
 ## How to Compile and Run
 Compile the program using GCC with C++11 support:
